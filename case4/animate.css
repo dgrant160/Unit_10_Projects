@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+p{
+   color: rgb(0, 0, 0);
+   font-size: 1em;
+   letter-spacing: 0em;
+   text-shadow: rgba(255, 255, 255, 1) 1px -1px 1px;
+   transition: color 1s ease-in 0.25s,
+               font-size 2s ease,
+               letter-spacing 2s ease-out,
+               text-shadow 2s cubic-bezier(0.6, 0, 0.8, 0.5);
+}
+
+p:hover {
+   color: rgb(40, 18, 25);
+   font-size: 1.5em;
+   letter-spacing: .1em;
+   text-shadow: rgba(0, 0, 0, 0.5) 15px -3px 8px;
+}
