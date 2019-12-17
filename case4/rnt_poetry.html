@@ -6,13 +6,10 @@
       New Perspectives on HTML and CSS
       Tutorial 8
       Case Problem 4
-
       Roads not Taken 
-      Author: 
+      Author:
       Date:   
-
       Filename: rnt_poetry.html
-
    -->
 
       <meta charset="utf-8" />
@@ -20,7 +17,7 @@
 
       <link href="rnt_base.css" rel="stylesheet" />
       <link href="rnt_styles.css" rel="stylesheet" />
-            
+      <link href="rnt_audio.css" rel="stylesheet" />
    </head>
 
    <body>
@@ -37,6 +34,7 @@
       </header>
 
       <figure>
+         <iframe src="https://www.youtube.com/embed/RJzDQpE6OrU" ></iframe>
          <figcaption>Robert Frost reads <cite>The Road Not Taken</cite></figcaption>
       </figure>
 
@@ -70,6 +68,12 @@
 
          <section class="poem">
             <h2>Fire and Ice</h2>
+            <audio controls>
+               <source src="rnt_fireice.ogg" type="audio/ogg" />
+               <source src="rnt_fireice.mp3" type="audio/mp3" />
+               <embed src="rnt_fireice.mp3" width="250px" height="50px" controller="yes" autoplay="no" autostart="no" showcontrols="yes" />
+               <p>no embedded audio is support</p>
+            </audio>
 
             <p>
                Some say the world will end in fire,<br />
@@ -86,6 +90,12 @@
 
          <section class="poem">
             <h2>Devotion</h2>
+            <audio controls>
+               <source src="rnt_devotion.ogg" type="audio/ogg" />
+               <source src="rnt_devotion.mp3" type="audio/mp3" />
+               <embed src="rnt_devotion.mp3" width="250px" height="50px" controller="yes" autoplay="no" autostart="no" showcontrols="yes" />
+               <p>no embedded audio is support</p>
+            </audio>
 
             <p>
                The heart can think of no devotion<br />
